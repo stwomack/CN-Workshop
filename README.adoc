@@ -54,7 +54,7 @@ To follow along with the lab exercises, please clone this git repo on your local
 
 [source,bash]
 ----
-$ git clone https://github.com/Pivotal-Field-Engineering/CN-Workshop.git
+$ git clone https://github.com/stwomack/CN-Workshop.git
 ----
 
 == IDE Setup and tips
