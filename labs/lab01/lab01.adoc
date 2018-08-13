@@ -29,7 +29,6 @@ Artifact:: cloud-native-spring
 
 - *Web*
 - *Rest Repositories*
-- *JPA*
 - *H2*
 - *Actuator*
 
