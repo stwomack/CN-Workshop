@@ -18,15 +18,16 @@ In this lab we'll utilize Spring Boot, Spring Data, and Spring Data REST to crea
 This application will create a simple reading list by asking for books you have read and storing them in a simple relational repository. We'll continue building upon the Spring Boot application we build in link:../lab01/lab01.adoc[Lab 1].  The first stereotype we will need is the domain model itself, which is `City`.
 
 == Add the JPA dependency 
-+ We didn't add JPA to the project initially, so add it to the Maven pom now
-+ Edit pom.xml and add the following dependency
+We didn't add JPA to the project initially, so add it to the Maven pom now
++
+Edit pom.xml and add the following dependency
 [source,xml,numbered]
-
+----
 <dependency>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-data-jpa</artifactId>
 </dependency>
-
+----
 == Add the `City` domain object
 . Create the package `io.pivotal.cloudnativespring.domain` and in that package create the class `City` using the following Java Persistence API code, which represents cities based on postal codes, global coordinates, etc:
 +
