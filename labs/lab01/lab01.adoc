@@ -174,7 +174,7 @@ Already have something running on port `8080`? You can tell Spring Boot to use a
 +
 [source,bash]
 ----
-CN-Workshop/labs/my_work/cloud-native-spring $ ./mvnw package
+CN-Workshop/labs/my_work/cloud-native-spring $ ./mvnw package -DskipTests
 ----
 
 . Create a Cloud Foundry application manifest.
