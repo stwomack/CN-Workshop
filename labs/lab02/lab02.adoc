@@ -19,7 +19,7 @@ This application will create a simple reading list by asking for books you have 
 
 == Add the JPA dependency 
 We didn't add JPA to the project initially, so add it to the Maven pom now
-+
+
 Edit pom.xml and add the following dependency
 [source,xml,numbered]
 ----
