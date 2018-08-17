@@ -28,6 +28,7 @@ Artifact:: cloud-native-spring
 . In the dependencies section, add each of the following manually:
 
 - *Web*
+- *JPA*
 - *Rest Repositories*
 - *H2*
 - *Actuator*
