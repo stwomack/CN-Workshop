@@ -118,8 +118,8 @@ applications:
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
   services:
-  - config-server
-  - service-registry
+  - config-server-{your_initials}
+  - service-registry-{your_initials}
 ----
 
 == Deploy and test application
