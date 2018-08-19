@@ -193,7 +193,7 @@ CN-Workshop/labs/my_work/cloud-native-spring $ ./mvnw spring-boot:run
 +
 image::images/config-scs.jpg[]
 
-. In the resulting details page, select the _standard_, single tenant plan.  Name the instance `config-server`, select the space that you've been using to push all your applications.  At this time you don't need to select a application to bind to the service:
+. In the resulting details page, select the _standard_, single tenant plan.  Name the instance `config-server-{your_initials}`, select the space that you've been using to push all your applications.  At this time you don't need to select a application to bind to the service:
 +
 image::images/config-scs1.jpg[]
 
