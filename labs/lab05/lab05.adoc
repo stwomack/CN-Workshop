@@ -440,14 +440,14 @@ Add application metadata:
 ----
 ---
 applications:
-- name: cloud-native-spring-ui
+- name: cloud-native-spring-ui-{your_initials}
   random-route: true
   memory: 768M
   path: target/cloud-native-spring-ui-0.0.1-SNAPSHOT-exec.jar
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
   services:
-  - service-registry
+  - service-registry-{your_initials}
 ----
 
 . Push application into Cloud Foundry
