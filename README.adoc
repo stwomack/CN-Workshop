@@ -18,7 +18,7 @@ This workshop provides developers with hands on experience building cloud native
 
 IMPORTANT: Each new lab exercise builds upon the preceding lab, so please do not skip around the labs!
 
-* Session 1: link:presentations/Session_1_CN_Design_DDD.pptx[_Cloud Native Design, Domain Driven Design, & Microservices_]
+* Session 1: Intros
 * Session 2: link:presentations/Session_2_Intro_Boot.pptx[_Introducing Spring Boot_]
 ** Lab 1: link:labs/lab01/lab01.adoc[Building A Spring Boot Application]
 * Session 3: link:presentations/Session_3_Polyglot_Persist.pptx[_Polyglot Persistence with Spring Data REST_]
@@ -54,7 +54,7 @@ To follow along with the lab exercises, please clone this git repo on your local
 
 [source,bash]
 ----
-$ git clone https://github.com/Pivotal-Field-Engineering/CN-Workshop.git
+$ git clone https://github.com/stwomack/CN-Workshop.git
 ----
 
 == IDE Setup and tips

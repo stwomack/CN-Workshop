@@ -5,7 +5,7 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-:spring-boot-version: 1.5.11
+:spring-boot-version: 1.5.15
 
 = Building a Spring Boot Application
 
@@ -28,8 +28,8 @@ Artifact:: cloud-native-spring
 . In the dependencies section, add each of the following manually:
 
 - *Web*
-- *Rest Repositories*
 - *JPA*
+- *Rest Repositories*
 - *H2*
 - *Actuator*
 
@@ -175,7 +175,7 @@ Already have something running on port `8080`? You can tell Spring Boot to use a
 +
 [source,bash]
 ----
-CN-Workshop/labs/my_work/cloud-native-spring $ ./mvnw package
+CN-Workshop/labs/my_work/cloud-native-spring $ ./mvnw package -DskipTests
 ----
 
 . Create a Cloud Foundry application manifest.
@@ -193,7 +193,7 @@ Add application metadata, using a text editor (of choice)
 ----
 ---
 applications:
-- name: cloud-native-spring
+- name: cloud-native-spring-{your_initials}
   random-route: true
   memory: 768M
   path: target/cloud-native-spring-0.0.1-SNAPSHOT.jar
