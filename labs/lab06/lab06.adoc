@@ -162,7 +162,7 @@ image::images/dash.jpg[]
 ----
   services:
   - service-registry
-  - circuit-breaker-dashboard # <---- Add this
+  - circuit-breaker-dashboard-{your_initials} # <---- Add this
 ----
 
 == Deploy and test application
