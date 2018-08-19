@@ -87,7 +87,7 @@ public class CloudNativeSpringApplication {
 +
 [source,bash]
 ----
-CN-Workshop/labs/my_work/cloud-native-spring $ cf create-service p-service-registry standard service-registry
+CN-Workshop/labs/my_work/cloud-native-spring $ cf create-service p-service-registry standard service-registry-{your_intials}
 ----
 
 . After you create the service registry instance navigate to your Cloud Foundry _space_ in the Apps Manager UI and refresh the page.  You should now see the newly create `service-registry` instance.  Select the manage link to view the registry dashboard.  Note that there are not any registered applications at the moment:
