@@ -107,8 +107,10 @@ public class CloudNativeSpringUiApplication {
     public class CityClientFallback implements CityClient {
         @Override
         public Resources<City> getCities() {
-            // We'll just return an empty response
-            return new Resources<City>(Collections.emptyList());
+			    // We'll just return one fake response
+			    City fallbackCity = new City();
+			    fallbackCity.setName("Ooopsie");
+			    return new Resources<City>(Collections.singleton(fallbackCity));
         }
     }
 }
