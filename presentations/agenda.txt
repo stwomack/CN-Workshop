@@ -1,0 +1,14 @@
+Session 1: Intros
+Session 2: Introducing Spring Boot
+  Lab 1: Building A Spring Boot Application
+Session 3: Polyglot Persistence with Spring Data REST
+  Lab 2: Build a Hypermedia-Driven RESTful Web Service with Spring Data REST
+Session 4: Advancing Spring Boot with Actuator and Profiles
+  Lab 3: Enhancing Boot Application with Metrics
+Session 5: Introducing Spring Cloud Netflix
+Session 6: Spring Cloud Config
+  Lab 4: Introducing Spring Cloud into Boot Application
+Session 7: Spring Cloud Netflix - Service Discovery & Load Balancing
+  Lab 5: Microservice Service Discover and Load Balancing
+Session 8: Spring Cloud Netflix - Circuit Breakers
+  Lab 6: Microservice Fault Tolerance with Circuit Breakers
