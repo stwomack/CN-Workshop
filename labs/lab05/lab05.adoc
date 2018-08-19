@@ -100,8 +100,8 @@ image::images/registry1.jpg[]
 [source,yml]
 ----
   services:
-  - config-server
-  - service-registry # <-- Add this
+  - config-server-{your_intials}
+  - service-registry-{your_initials} # <-- Add this
 ----
 +
 Complete:
