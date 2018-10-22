@@ -43,7 +43,7 @@ To build the applications in this workshop, you'll need a couple of things:
 
 We'll be pushing applications and creating services in Pivotal Cloud Foundry (PCF). This workshop uses Pivotal Web Services, an instance of PCF hosted by Pivotal.
 
-* ~Login or signup for a free http://run.pivotal.io[Pivotal Web Services] account~
+* Login to the http://run.pivotal.io[Pivotal Web Services] account created by the Pivotal team
 * Click the _Tools_ link and...
 ** download and install the CLI matching your operating system
 ** login to the CF CLI (`cf login -a api.run.pivotal.io`)
