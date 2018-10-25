@@ -46,7 +46,7 @@ We'll be pushing applications and creating services in Pivotal Cloud Foundry (PC
 * Login or signup for a free http://run.pivotal.io[Pivotal Web Services] account
 * Click the _Tools_ link and...
 ** download and install the CLI matching your operating system
-** login to the CF CLI (`cf login -a api.run.pivotal.io`)
+** login to the CF CLI (`cf login -a api.sys.yorbalinda.cf-app.com --skip-ssl-validation`)
 
 == Clone repo
 
